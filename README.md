@@ -24,7 +24,7 @@ cat manifests/* | envsubst > expanded.yaml
 ```
 2. Create the configmap object:
 ```sh
-kubectl create configmap aerospike-conf -n $NAMESPACE --from-file=configs/
+kubectl create configmap $APP_NAME-conf -n $NAMESPACE --from-file=configs/
 ```
 3. Deploy:
 ```sh
