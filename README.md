@@ -12,4 +12,5 @@ export RESIOT_NODES=3
 
 All other parameters are required.
 ### Configuring Storage:
-The [statefulset definition](manifests/deployment.yaml) refers to a custom StorageClass `ssd`.
+The [deployment definition](manifests/deployment.yaml) refers to a custom StorageClass `ssd`.
+
