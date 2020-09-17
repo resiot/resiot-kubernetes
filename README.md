@@ -9,9 +9,8 @@ Set environment variables (modify if necessary):
 export APP_NAME=resiot
 export NAMESPACE=default
 export RESIOT_NODES=3
-
+```
 All other parameters are required.
 ### Configuring Storage:
-
 The [deployment definition](manifests/deployment.yaml) refers to a custom StorageClass `ssd`.
 
